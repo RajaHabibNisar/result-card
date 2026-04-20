@@ -1,0 +1,74 @@
+body {
+            background-color: #ECF2FF;
+            font-family: sans-serif;
+            padding: 8% 25%;
+        }
+        main {
+            display: flex;
+            border-radius: 20px;
+            background-color: white;
+        }
+        .lsec {
+            padding: 10px 50px;
+            border-radius: 20px;
+            background: linear-gradient(#6A43FF, #302BE9);
+            color: white;
+            text-align: center;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .cicle {
+            width: 70%;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(#4C23CD, #4734F0);
+            padding-bottom: 10px;
+        }
+        .cicle h1 {
+            font-size: 50px;
+        }
+        .rsec {
+            padding: 10px 50px;
+            width: 50%;
+        }
+        article img{
+            width: 15px;
+            height: 15px;
+        }
+        .rbox, .ybox, .gbox, .bbox {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 15px;
+            padding: 0 10px;
+            margin: 10px 0;
+        }
+        .rbox {
+            color: #db1a21;
+            background-color: #db1a2110;
+        }
+        .ybox {
+            color: #DBD000;
+            background-color: #DBD00010;
+        }
+        .gbox {
+            color: #1BA169;
+            background-color: #1BA16910;
+        }
+        .bbox {
+            color: #3F48CC;
+            background-color: #3F48CC10;
+        }
+        .rbox p, .ybox p, .gbox p, .bbox p {
+            color: #000;
+        }
+        button {
+            background-color: #2C3452;
+            color: #fff;
+            border-radius: 25px;
+            padding: 15px 10px;
+            margin: 10px 0;
+            width: 100%;
+        }
